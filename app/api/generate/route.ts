@@ -22,8 +22,6 @@ export async function POST(request:NextRequest){
         n: 1
 });
 
-    console.log("response", response.data[0]);
-
 
     return NextResponse.json(response.data[0]);
 }
